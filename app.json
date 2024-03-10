@@ -1,7 +1,7 @@
 {
-  "name": "suhail-md@1.2.8",
+  "name": "samuel@1.2.8",
   "description": "I am Suhail-Md Whatsapp Chuddy Buddy built in NodeJs to make experience better\n\t if Any Problem : www.youtube.com/c/SuhailTechInfo",
-  "logo": "https://telegra.ph/file/d5b1c3544fedc23e11a06.jpg",
+  "logo": "https://telegra.ph/file/3780f1df2784488686e2b.jpg",
   "keywords": ["whatsappbot", "suhailMd", "suhail Md bot", "Suhail-Md", "SuhailMdWhatsaooBot", "SuhailWaBot","SuhailMD","Suhail Md Whatsapp Bot","multi device"],
   "success_url": "/suhail/",
   "app_url": "/qr/",
@@ -9,13 +9,13 @@
   "env": {
     "OWNER_NAME": {
       "description": "Name of Bot Owner",    
-      "value": "Suhail Ser",
+      "value": "SaMUel",
       "required" :true
     },   
      
     "WELCOME": {
       "description": "put 'false' or 'true' to enable & disable WELCOME ",
-      "value": "true",
+      "value": "false",
       "required" :false
     },
      
@@ -27,12 +27,12 @@
     "BOT_NAME": {
       "description": " NAME FOR BOT",
       "required" :false,    
-      "value": "sᴜʜᴀɪʟ-ᴍᴅ"
+      "value": "saMMie's bOt"
     }, 
     "IMAGE": {
       "description": "Image for bot",
       "required" :false,    
-      "value": "https://telegra.ph/file/d5b1c3544fedc23e11a06.jpg"
+      "value": "https://telegra.ph/file/3780f1df2784488686e2b.jpg"
     }, 
     "TZ": {
       "description": "Put TIME_ZONE according to your location",
@@ -52,7 +52,7 @@
     "READ_COMMAND": {
       "description": " Read bot cmds",
       "required" :false,    
-      "value": "false"
+      "value": "true"
     }, 
     "AUTO_SAVE_STATUS": {
       "description": " Auto save whatsapp status", 
@@ -61,12 +61,12 @@
     }, 
     "HEROKU_API_KEY": {
       "description": "Put Your Heroku Api Key Here",
-      "value": "",
+      "value": "false",
       "required" :true 
     },   
     "HEROKU_APP_NAME": {
       "description": "Put Your Heroku App Name Here",
-      "value": "",
+      "value": "samuel",
     "required" :true
     }, 
     "WAPRESENCE": {
@@ -96,11 +96,11 @@
     },
     "PREFIX": {
       "description": "Enter your desired prefix for bot. you can set `all | . | .!*`",
-      "value": "."
+      "value": "all"
     },
     "OWNER_NUMBER": {
       "description": "The phone numbers of the users who you want to be admin for the bot (should be in international format without + and multiple numbers must be separated by a comma \",\")",
-      "value": "923184474176"
+      "value": "2349136429929"
     },
     "SESSION_ID": {
       "description": "put your SESSION_ID here.",
@@ -128,7 +128,7 @@
     },
     "PACK_NAME": {
       "description": "Put Sticker Pack_Name.",
-      "value": "Suhail Md",
+      "value": "saMUel",
       "required": false 
     },
     "PACK_AUTHER": {
